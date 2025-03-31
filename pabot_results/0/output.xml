@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T16:28:03.537005" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suit4 Pabot" source="C:\Users\UNS_CT\OneDrive\Desktop\ep01\test_suit4_pabot.robot">
+<test id="s1-t1" name="Login Chrome" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:03.785588" level="INFO">Opening browser 'chrome' to base url 'https://sit.doppio-tech.com/login'.</msg>
+<arg>https://sit.doppio-tech.com/login</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T16:28:03.785253" elapsed="4.616650"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.403454" level="INFO">Typing text 'perapat@gmail.com' into text field 'id=basic_username'.</msg>
+<arg>id=basic_username</arg>
+<arg>perapat@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.402619" elapsed="0.169395"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.572496" level="INFO">Typing text 'Perapat123*' into text field 'id=basic_password'.</msg>
+<arg>id=basic_password</arg>
+<arg>Perapat123*</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.572194" elapsed="0.078158"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.653201" level="INFO">Clicking button 'css:button.btn-login'.</msg>
+<arg>css:button.btn-login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.651099" elapsed="0.114617"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-30T16:28:09.767056" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.766128" elapsed="1.001054"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-30T16:28:09.767482" elapsed="2.121918"/>
+</kw>
+<status status="PASS" start="2025-03-30T16:28:03.783801" elapsed="8.106106"/>
+</test>
+<status status="PASS" start="2025-03-30T16:28:03.553949" elapsed="8.337356"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Suit4 Pabot" id="s1" pass="1" fail="0" skip="0">Test Suit4 Pabot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

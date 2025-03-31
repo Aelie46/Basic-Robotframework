@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T16:28:16.460245" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suit4 Pabot" source="C:\Users\UNS_CT\OneDrive\Desktop\ep01\test_suit4_pabot.robot">
+<test id="s1-t1" name="Open Gmail Login Page On Edge" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:16.678253" level="INFO">Opening browser 'edge' to base url 'https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ddm=1&amp;emr=1&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;hl=en&amp;ifkv=AXH0vVuYpLIkd0jgZ8XamSwQp-seMGUbrHxgcdbTzaPe-Czzdtm0310YruBlx6c8iQMfVf0RhjLjgA&amp;osid=1&amp;service=mail&amp;flowEntry=AccountChooser'.</msg>
+<arg>https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ddm=1&amp;emr=1&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;hl=en&amp;ifkv=AXH0vVuYpLIkd0jgZ8XamSwQp-seMGUbrHxgcdbTzaPe-Czzdtm0310YruBlx6c8iQMfVf0RhjLjgA&amp;osid=1&amp;service=mail&amp;flowEntry=AccountChooser</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T16:28:16.677971" elapsed="2.759302"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-30T16:28:21.437995" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-30T16:28:19.437514" elapsed="2.000590"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-30T16:28:21.438268" elapsed="2.123254"/>
+</kw>
+<status status="PASS" start="2025-03-30T16:28:16.677236" elapsed="6.884455"/>
+</test>
+<status status="PASS" start="2025-03-30T16:28:16.475879" elapsed="7.086195"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Suit4 Pabot" id="s1" pass="1" fail="0" skip="0">Test Suit4 Pabot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

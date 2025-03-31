@@ -1,0 +1,7 @@
+datasources:6969941e6182a7f706968cae8455f9aabdd66755
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:1fcd29b6348b7555c984886d9310a6de86c6e0ed
+--test Test Suit4 Pabot.Login Chrome
+--test Test Suit4 Pabot.Login Edge
+--test Test Suit4 Pabot.Open Gmail Login Page On Edge

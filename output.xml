@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T16:28:27.910010" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Suit4 Pabot" source="C:\Users\UNS_CT\OneDrive\Desktop\ep01\test_suit4_pabot.robot">
+<test id="s1-t1" name="Login Chrome" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:03.785588" level="INFO">Opening browser 'chrome' to base url 'https://sit.doppio-tech.com/login'.</msg>
+<arg>https://sit.doppio-tech.com/login</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T16:28:03.785253" elapsed="4.616650"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.403454" level="INFO">Typing text 'perapat@gmail.com' into text field 'id=basic_username'.</msg>
+<arg>id=basic_username</arg>
+<arg>perapat@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.402619" elapsed="0.169395"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.572496" level="INFO">Typing text 'Perapat123*' into text field 'id=basic_password'.</msg>
+<arg>id=basic_password</arg>
+<arg>Perapat123*</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.572194" elapsed="0.078158"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.653201" level="INFO">Clicking button 'css:button.btn-login'.</msg>
+<arg>css:button.btn-login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.651099" elapsed="0.114617"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-30T16:28:09.767056" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.766128" elapsed="1.001054"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-30T16:28:09.767482" elapsed="2.121918"/>
+</kw>
+<status status="PASS" start="2025-03-30T16:28:03.783801" elapsed="8.106106"/>
+</test>
+<test id="s1-t2" name="Login Edge" line="13">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:03.785454" level="INFO">Opening browser 'edge' to base url 'https://sit.doppio-tech.com/login'.</msg>
+<arg>https://sit.doppio-tech.com/login</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T16:28:03.784931" elapsed="4.869028"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.657367" level="INFO">Typing text 'perapat@gmail.com' into text field 'id=basic_username'.</msg>
+<arg>id=basic_username</arg>
+<arg>perapat@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.654824" elapsed="0.231417"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.886776" level="INFO">Typing text 'Perapat123*' into text field 'id=basic_password'.</msg>
+<arg>id=basic_password</arg>
+<arg>Perapat123*</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.886423" elapsed="0.088346"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:08.975366" level="INFO">Clicking button 'css:button.btn-login'.</msg>
+<arg>css:button.btn-login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-30T16:28:08.975044" elapsed="0.072033"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-30T16:28:10.048763" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-30T16:28:09.047482" elapsed="1.001399"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-30T16:28:10.049040" elapsed="2.130657"/>
+</kw>
+<status status="PASS" start="2025-03-30T16:28:03.783480" elapsed="8.396424"/>
+</test>
+<test id="s1-t3" name="Open Gmail Login Page On Edge" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T16:28:16.678253" level="INFO">Opening browser 'edge' to base url 'https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ddm=1&amp;emr=1&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;hl=en&amp;ifkv=AXH0vVuYpLIkd0jgZ8XamSwQp-seMGUbrHxgcdbTzaPe-Czzdtm0310YruBlx6c8iQMfVf0RhjLjgA&amp;osid=1&amp;service=mail&amp;flowEntry=AccountChooser'.</msg>
+<arg>https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ddm=1&amp;emr=1&amp;flowName=GlifWebSignIn&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;hl=en&amp;ifkv=AXH0vVuYpLIkd0jgZ8XamSwQp-seMGUbrHxgcdbTzaPe-Czzdtm0310YruBlx6c8iQMfVf0RhjLjgA&amp;osid=1&amp;service=mail&amp;flowEntry=AccountChooser</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T16:28:16.677971" elapsed="2.759302"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-30T16:28:21.437995" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-30T16:28:19.437514" elapsed="2.000590"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-03-30T16:28:21.438268" elapsed="2.123254"/>
+</kw>
+<status status="PASS" start="2025-03-30T16:28:16.677236" elapsed="6.884455"/>
+</test>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 3 executions.</doc>
+<status status="PASS" start="2025-03-30T16:28:03.552000" elapsed="20.010000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Suit4 Pabot" id="s1" pass="3" fail="0" skip="0">Test Suit4 Pabot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
